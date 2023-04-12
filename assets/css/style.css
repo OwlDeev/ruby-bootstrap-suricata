@@ -1,0 +1,22 @@
+nav {
+  background-color: #e83e8c !important;
+  height: 75px;
+}
+
+nav a {
+  color: white !important;
+}
+
+#navbarSupportedContent {
+  flex-direction: row-reverse;
+}
+
+#div-icon-logo {
+  padding-left: 200px;
+  padding-right: 118px;
+}
+
+nav img {
+  width: 132px;
+  height: 53px;
+}
