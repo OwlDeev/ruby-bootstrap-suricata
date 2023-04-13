@@ -19,4 +19,132 @@ nav a {
 nav img {
   width: 132px;
   height: 53px;
+  margin-left:119px !important
 }
+
+#title-header {
+  font-size: 60px;
+  margin-bottom: 0px !important;
+  font-weight: bold;
+  color: #707070 !important;
+}
+
+#div-title-header {
+  margin-top: 50px;
+}
+
+#div-gallery {
+  margin-top: 80px;
+}
+
+.card-link {
+  text-decoration: none;
+}
+
+#div-aceptamos-tarjetas {
+  background-color: #17a2b8;
+  color: white;
+  height: 170px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 118px !important;
+}
+
+#title-header-tarjetas {
+  font-size: 40px;
+  font-weight: bold;
+}
+
+.icon-size {
+  width: 80px;
+  height: 54px;
+}
+
+#icons-section {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 100%;
+}
+
+#icons-section i {
+  font-size: 4em !important;
+}
+
+#div-footer {
+  background-color: #e83e8c;
+  height: 184px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.img-footer {
+  width: 53px;
+  height: 100px;
+}
+
+#col-uno-tarjetas {
+  margin-right: 50px;
+}
+
+.margin-right {
+  margin-right: 30px;
+}
+
+.card {
+  width: 18rem;
+}
+
+#div-navbar-id{
+  background-color: #e83e8c !important;
+}
+
+#form-nav-title{
+  margin-right: 118px !important;
+}
+
+.card-title{
+  font-weight: bold;
+}
+
+@media (max-width: 768px) {
+  #div-aceptamos-tarjetas {
+    display: none;
+  }
+  .margin-right {
+    margin-right: 5px;
+  }
+
+  #col-uno-tarjetas {
+    margin-right: 0px;
+    margin-bottom: 20px;
+  }
+
+  .card {
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+    width: 92vw !important;
+    margin-bottom: 50px !important;
+  }
+
+  #div-icon-logo {
+    padding-left: 50px !important; 
+    padding-right: 0px !important; 
+}
+
+.custom-toggler {
+  background-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='30' height='30' viewBox='0 0 30 30'><path stroke='rgba(255, 255, 255, 1)' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/></svg>") !important;
+}
+
+nav img {
+  width: 132px;
+  height: 53px;
+  margin-left:35px !important
+}
+
+}
+

@@ -1,47 +1,242 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./assets/css/style.css">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./assets/css/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ"
+      crossorigin="anonymous"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Raleway:wght@100;300&display=swap"
+      rel="stylesheet"
+    />
     <title>Document</title>
-</head>
-<body>
-    <nav class="navbar navbar-expand-lg">
-        <div class="container-fluid" id="div-icon-logo">
-          <a class="navbar-brand" href="#"><img src="./assets/img/logo.png"/></a>
-          <div></div>
-          <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <form class="d-flex flex-row-reverse" role="search">
-                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                    <li class="nav-item">
-                      <a class="nav-link active" aria-current="page" href="#">Inicio</a>
-                    </li>
-                    <li class="nav-item">
-                      <a class="nav-link" href="#">Productos</a>
-                    </li>
-                    <li class="nav-item">
-                      <a class="nav-link">Contacto</a>
-                    </li>
-                  </ul>
-            </form>
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary" id="div-navbar-id">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#"><img src="./assets/img/logo.png" /></a>
+        <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0"></ul>
+          <form class="d-flex" role="search" id="form-nav-title">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#"
+                  >Inicio</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Productos</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link">Contacto</a>
+              </li>
+            </ul>
+          </form>
+        </div>
+        <button
+          class="navbar-toggler border-white"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarTogglerDemo03"
+          aria-controls="navbarTogglerDemo03"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon custom-toggler"></span>
+        </button>
+      </div>
+    </nav>
+    <div class="container text-center" id="div-title-header">
+      <div class="row">
+        <div class="col">
+          <p class="text-center" id="title-header">Nuestros Productos</p>
+        </div>
+      </div>
+    </div>
+    <div class="container text-center">
+      <div class="row" id="div-gallery">
+        <div class="col">
+          <div class="card" style="width: 18rem">
+            <img
+              src="assets/img/colaciones.jpg"
+              class="card-img-top"
+              alt="..."
+            />
+            <div class="card-body">
+              <h5 class="card-title">Colaciones</h5>
+              <p class="card-text">
+                Some quick example text to build on the card title and make up
+                the bulk of the card's content.
+              </p>
+            </div>
+            <ul class="list-group list-group-flush">
+              <li class="list-group-item">An item</li>
+              <li class="list-group-item">A second item</li>
+              <li class="list-group-item">A third item</li>
+            </ul>
+            <div class="card-body">
+              <a href="#" class="card-link">Ver más</a>
+              <a href="#" class="card-link">Comprar</a>
+            </div>
           </div>
         </div>
-      </nav>
-    <div class="container text-center">
-        <div class="row">
-          <div class="col">
-            Column1
+
+        <div class="col">
+          <div class="card" style="width: 18rem">
+            <img
+              src="assets/img/desayunos.jpg"
+              class="card-img-top"
+              alt="..."
+            />
+            <div class="card-body">
+              <h5 class="card-title">Desayunos</h5>
+              <p class="card-text">
+                Some quick example text to build on the card title and make up
+                the bulk of the card's content.
+              </p>
+            </div>
+            <ul class="list-group list-group-flush">
+              <li class="list-group-item">An item</li>
+              <li class="list-group-item">A second item</li>
+              <li class="list-group-item">A third item</li>
+            </ul>
+            <div class="card-body">
+              <a href="#" class="card-link">Ver más</a>
+              <a href="#" class="card-link">Comprar</a>
+            </div>
           </div>
-          <div class="col">
-            Column2
-          </div>
-          <div class="col">
-            Column3
+        </div>
+
+        <div class="col">
+          <div class="card" style="width: 18rem">
+            <img src="assets/img/bebidas.jpg" class="card-img-top" alt="..." />
+            <div class="card-body">
+              <h5 class="card-title">Bebidas</h5>
+              <p class="card-text">
+                Some quick example text to build on the card title and make up
+                the bulk of the card's content.
+              </p>
+            </div>
+            <ul class="list-group list-group-flush">
+              <li class="list-group-item">An item</li>
+              <li class="list-group-item">A second item</li>
+              <li class="list-group-item">A third item</li>
+            </ul>
+            <div class="card-body">
+              <a href="#" class="card-link">Ver más</a>
+              <a href="#" class="card-link">Comprar</a>
+            </div>
           </div>
         </div>
       </div>
-</body>
+      <div class="row" id="div-gallery">
+        <div class="col">
+          <div class="card" style="width: 18rem">
+            <img src="assets/img/verduras.jpg" class="card-img-top" alt="..." />
+            <div class="card-body">
+              <h5 class="card-title">Verduras</h5>
+              <p class="card-text">
+                Some quick example text to build on the card title and make up
+                the bulk of the card's content.
+              </p>
+            </div>
+            <ul class="list-group list-group-flush">
+              <li class="list-group-item">An item</li>
+              <li class="list-group-item">A second item</li>
+              <li class="list-group-item">A third item</li>
+            </ul>
+            <div class="card-body">
+              <a href="#" class="card-link">Ver más</a>
+              <a href="#" class="card-link">Comprar</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col">
+          <div class="card" style="width: 18rem">
+            <img src="assets/img/dulces.jpg" class="card-img-top" alt="..." />
+            <div class="card-body">
+              <h5 class="card-title">Dulces</h5>
+              <p class="card-text">
+                Some quick example text to build on the card title and make up
+                the bulk of the card's content.
+              </p>
+            </div>
+            <ul class="list-group list-group-flush">
+              <li class="list-group-item">An item</li>
+              <li class="list-group-item">A second item</li>
+              <li class="list-group-item">A third item</li>
+            </ul>
+            <div class="card-body">
+              <a href="#" class="card-link">Ver más</a>
+              <a href="#" class="card-link">Comprar</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col">
+          <div class="card" style="width: 18rem">
+            <img
+              src="assets/img/empanadas.jpg"
+              class="card-img-top"
+              alt="..."
+            />
+            <div class="card-body">
+              <h5 class="card-title">Empanadas</h5>
+              <p class="card-text">
+                Some quick example text to build on the card title and make up
+                the bulk of the card's content.
+              </p>
+            </div>
+            <ul class="list-group list-group-flush">
+              <li class="list-group-item">An item</li>
+              <li class="list-group-item">A second item</li>
+              <li class="list-group-item">A third item</li>
+            </ul>
+            <div class="card-body">
+              <a href="#" class="card-link">Ver más</a>
+              <a href="#" class="card-link">Comprar</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div id="div-aceptamos-tarjetas">
+      <div class="row">
+        <div class="col" id="col-uno-tarjetas">
+          <p class="text-center" id="title-header-tarjetas">Ahora aceptamos</p>
+        </div>
+        <div class="col" id="icons-section">
+          <i class="fa-brands fa-cc-mastercard fa-2xl margin-right"></i>
+          <i class="fa-brands fa-cc-visa fa-2xl margin-right"></i>
+          <i class="fa-brands fa-cc-amex fa-2xl margin-right"></i>
+          <i class="fa-brands fa-cc-diners-club fa-2xl margin-right"></i>
+          <i class="fa-brands fa-cc-paypal fa-2xl margin-right"></i>
+          <i class="fa-brands fa-cc-discover fa-2xl margin-right"></i>
+        </div>
+      </div>
+    </div>
+    <div id="div-footer">
+      <div class="row">
+        <div class="col">
+          <img src="assets/img/logo-footer.png" class="img-footer" />
+        </div>
+      </div>
+    </div>
+  </body>
 </html>
